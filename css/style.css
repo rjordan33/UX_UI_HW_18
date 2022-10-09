@@ -41,11 +41,12 @@ body {
     background-color: black;  
 }
 .heroContent {
-    align-items: flex-start;
+    flex: 60%;
+    text-align: center;
 }
 .heroImg {
-    /*background-color: black;*/
-   padding-right: 50px;
+   flex: 40%;
+   justify-content: center;
 }
 .heroContent h1 {
     color: white;
@@ -132,3 +133,51 @@ body {
 .btnCases:hover { 
     color:red;
 }
+.contactMe {
+    background-color: black;
+    color: white;
+}
+.contact {
+    display: grid;
+    text-align: center;}
+.form {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+.btnContact {
+    width: 272px;
+    height: 63px;
+    border: solid;
+    border-color: red;
+   background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 800;
+    
+}
+.btnContact:hover { 
+    color:red;
+}
+.inputFields {
+    display: grid;
+    text-align: center;
+}
+.name {    
+    height: 25px;
+    margin-bottom: 15px;
+}
+.email {    
+    height: 25px;
+    margin-bottom: 15px;
+}
+.message {    
+    height: 25px;
+    margin-bottom: 15px;
+}
+@media (max-width: 700px) {
+     .inline-block .navContainer {   
+      flex-direction: column;
+    }}
