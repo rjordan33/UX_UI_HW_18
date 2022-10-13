@@ -55,7 +55,6 @@ body {
 .heroContent h3 {
     color: white;   
 }
-
 .btnResume {
     width: 272px;
     height: 63px;
@@ -81,7 +80,6 @@ body {
     justify-content: center;
     
 }
-
 .footerItems {
     padding-top: 10px;
     padding-right: 50px;
@@ -91,8 +89,7 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns:  auto auto;
-    
+    grid-template-columns:  auto auto;    
 }
 .grid-container > div {
     padding: 75px;
@@ -155,8 +152,7 @@ body {
     border-radius: 5px;
     font-size: 16px;
     margin-top: 20px;
-    font-weight: 800;
-    
+    font-weight: 800;    
 }
 .btnContact:hover { 
     color:red;
